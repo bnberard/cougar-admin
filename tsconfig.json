@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "lib": [ "dom", "es2015", "es2016", "es2017" ],
+    "outDir": "build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+  },
+  "exclude": [
+    "**/node_modules/*",
+    "**/*.spec.ts",
+    "**/*.test.ts"
+  ],
+  "include": [
+    "src/server/**/*.ts"
+  ]
+}
